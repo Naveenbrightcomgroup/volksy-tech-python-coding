@@ -12,7 +12,7 @@ if ld > 5:
 
           .format(number, ld))
 
-elif ld is 0:
+elif ld == 0:
 
     print("Last digit of {:d} is {:d} and is 0".format(number, ld))
 
